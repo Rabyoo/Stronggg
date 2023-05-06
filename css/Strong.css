@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left .bord {
+    outline: 13px solid rgba(222, 44, 44, 0.54);
+    width: 420px;
+    padding: 30px;
+    position: relative;
+    left: 170px;
+    top: 130px;
+}
+.left .bord img {
+    position: relative;
+    right: 90px;
+}
+.right .container {
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    position: relative;
+    left:680px;
+    top: -300px;
+}
+.right .container h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+.right .container p {    
+    font-weight: bold;
+    color: rgba(231, 35, 35, 0.88);
+    position: relative;
+    left: 30px;
+    
+}
+.right .container span i {
+    width: 40px;
+    color: #f30909;
+    position: relative;
+    right: 20px;
+    top: 4px;
+    transform: rotateX(180deg);
+}
+.right .container .about p {
+    color: #777;
+    font-family: initial;
+    word-spacing: 5px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    line-height: 20px;
+}
+.right .container .icons {
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(231, 35, 35, 0.88);
+}
+.right .container .icons i {
+    outline: 1px solid #44444443;
+    padding: 35px;
+    margin: 25px;
+}
+.right .container .icons span i {
+    outline: none;
+    position: relative;
+    left: 70px;
+    top: -200px;
+    transform: rotate(-45deg);
+}
+.right .container .icons .two span {
+    position: relative;
+    left: 30;
+}
+.right .container .icons h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -213px;
+    color: #444;
+    font-size: 15px;
+}
+.right .container .icons h1 {
+    position: relative;
+    left: 80px;
+    top: -310px;
+    color: #e8e8e8b3;
+    font-size: 50px;
+    z-index: 2;
+}
+@media (max-width:450px) {
+     .right .container {
+       margin-top: 600px;
+       position: relative;
+       right: 600px;
+       transform: translate(-500px, -100px);
+    }
+}
